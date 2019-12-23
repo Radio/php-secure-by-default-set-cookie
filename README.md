@@ -20,7 +20,13 @@ The names of the functions are intentionally long and descriptive.
 The signature of all the functions is the same (except for the name, of course):
 
 ```php
-function setSameSiteCookie(string $name, string $value, int $expires = 0, string $path = '', string $domain = ''): void
+function setSameSiteCookie(
+    string $name, 
+    string $value, 
+    int $expires = 0, 
+    string $path = '', 
+    string $domain = ''
+): void
 ```
 
 If you wonder what is "SameSite" or what "Lax" means, please read [SameSite cookies explained](https://web.dev/samesite-cookies-explained/) on web.dev. 
