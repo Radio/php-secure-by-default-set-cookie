@@ -1,0 +1,20 @@
+{
+    "name": "radio/php-secure-by-default-set-cookie",
+    "description": "Secure by default PHP functions for setting cookies",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maksym Hopei",
+            "email": "gopeyx@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~7.3"
+    },
+    "autoload": {
+        "files": [
+            "functions.php"
+        ]
+    }
+}
